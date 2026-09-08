@@ -1,5 +1,4 @@
 use smithay::backend::renderer::utils::with_renderer_surface_state;
-use smithay::delegate_layer_shell;
 use smithay::desktop::{layer_map_for_output, LayerSurface, PopupKind, WindowSurfaceType};
 use smithay::output::Output;
 use smithay::reexports::wayland_server::protocol::wl_output::WlOutput;
